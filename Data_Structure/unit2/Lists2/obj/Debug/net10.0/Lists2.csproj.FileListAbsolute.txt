@@ -1,0 +1,14 @@
+/home/alejandro/Bureau/Data_Structure/unit2/Lists2/bin/Debug/net10.0/Lists2
+/home/alejandro/Bureau/Data_Structure/unit2/Lists2/bin/Debug/net10.0/Lists2.deps.json
+/home/alejandro/Bureau/Data_Structure/unit2/Lists2/bin/Debug/net10.0/Lists2.runtimeconfig.json
+/home/alejandro/Bureau/Data_Structure/unit2/Lists2/bin/Debug/net10.0/Lists2.dll
+/home/alejandro/Bureau/Data_Structure/unit2/Lists2/bin/Debug/net10.0/Lists2.pdb
+/home/alejandro/Bureau/Data_Structure/unit2/Lists2/obj/Debug/net10.0/Lists2.GeneratedMSBuildEditorConfig.editorconfig
+/home/alejandro/Bureau/Data_Structure/unit2/Lists2/obj/Debug/net10.0/Lists2.AssemblyInfoInputs.cache
+/home/alejandro/Bureau/Data_Structure/unit2/Lists2/obj/Debug/net10.0/Lists2.AssemblyInfo.cs
+/home/alejandro/Bureau/Data_Structure/unit2/Lists2/obj/Debug/net10.0/Lists2.csproj.CoreCompileInputs.cache
+/home/alejandro/Bureau/Data_Structure/unit2/Lists2/obj/Debug/net10.0/Lists2.dll
+/home/alejandro/Bureau/Data_Structure/unit2/Lists2/obj/Debug/net10.0/refint/Lists2.dll
+/home/alejandro/Bureau/Data_Structure/unit2/Lists2/obj/Debug/net10.0/Lists2.pdb
+/home/alejandro/Bureau/Data_Structure/unit2/Lists2/obj/Debug/net10.0/Lists2.genruntimeconfig.cache
+/home/alejandro/Bureau/Data_Structure/unit2/Lists2/obj/Debug/net10.0/ref/Lists2.dll

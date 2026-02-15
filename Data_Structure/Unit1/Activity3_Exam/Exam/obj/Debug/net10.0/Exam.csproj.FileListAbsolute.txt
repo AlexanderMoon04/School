@@ -1,0 +1,14 @@
+/home/alejandro/Bureau/Data_Structure/Unit1/Activity3_Exam/Exam/obj/Debug/net10.0/Exam.GeneratedMSBuildEditorConfig.editorconfig
+/home/alejandro/Bureau/Data_Structure/Unit1/Activity3_Exam/Exam/obj/Debug/net10.0/Exam.AssemblyInfoInputs.cache
+/home/alejandro/Bureau/Data_Structure/Unit1/Activity3_Exam/Exam/obj/Debug/net10.0/Exam.AssemblyInfo.cs
+/home/alejandro/Bureau/Data_Structure/Unit1/Activity3_Exam/Exam/obj/Debug/net10.0/Exam.csproj.CoreCompileInputs.cache
+/home/alejandro/Bureau/Data_Structure/Unit1/Activity3_Exam/Exam/bin/Debug/net10.0/Exam
+/home/alejandro/Bureau/Data_Structure/Unit1/Activity3_Exam/Exam/bin/Debug/net10.0/Exam.deps.json
+/home/alejandro/Bureau/Data_Structure/Unit1/Activity3_Exam/Exam/bin/Debug/net10.0/Exam.runtimeconfig.json
+/home/alejandro/Bureau/Data_Structure/Unit1/Activity3_Exam/Exam/bin/Debug/net10.0/Exam.dll
+/home/alejandro/Bureau/Data_Structure/Unit1/Activity3_Exam/Exam/bin/Debug/net10.0/Exam.pdb
+/home/alejandro/Bureau/Data_Structure/Unit1/Activity3_Exam/Exam/obj/Debug/net10.0/Exam.dll
+/home/alejandro/Bureau/Data_Structure/Unit1/Activity3_Exam/Exam/obj/Debug/net10.0/refint/Exam.dll
+/home/alejandro/Bureau/Data_Structure/Unit1/Activity3_Exam/Exam/obj/Debug/net10.0/Exam.pdb
+/home/alejandro/Bureau/Data_Structure/Unit1/Activity3_Exam/Exam/obj/Debug/net10.0/Exam.genruntimeconfig.cache
+/home/alejandro/Bureau/Data_Structure/Unit1/Activity3_Exam/Exam/obj/Debug/net10.0/ref/Exam.dll

@@ -1,0 +1,14 @@
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise2/Recursion/obj/Debug/net10.0/Recursion.GeneratedMSBuildEditorConfig.editorconfig
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise2/Recursion/obj/Debug/net10.0/Recursion.AssemblyInfoInputs.cache
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise2/Recursion/obj/Debug/net10.0/Recursion.AssemblyInfo.cs
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise2/Recursion/obj/Debug/net10.0/Recursion.csproj.CoreCompileInputs.cache
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise2/Recursion/bin/Debug/net10.0/Recursion
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise2/Recursion/bin/Debug/net10.0/Recursion.deps.json
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise2/Recursion/bin/Debug/net10.0/Recursion.runtimeconfig.json
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise2/Recursion/bin/Debug/net10.0/Recursion.dll
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise2/Recursion/bin/Debug/net10.0/Recursion.pdb
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise2/Recursion/obj/Debug/net10.0/Recursion.dll
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise2/Recursion/obj/Debug/net10.0/refint/Recursion.dll
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise2/Recursion/obj/Debug/net10.0/Recursion.pdb
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise2/Recursion/obj/Debug/net10.0/Recursion.genruntimeconfig.cache
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise2/Recursion/obj/Debug/net10.0/ref/Recursion.dll

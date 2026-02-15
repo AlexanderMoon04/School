@@ -1,0 +1,14 @@
+/home/alejandro/Bureau/Data_Structure/unit2/Stack/MediumExample/obj/Debug/net10.0/MediumExample.GeneratedMSBuildEditorConfig.editorconfig
+/home/alejandro/Bureau/Data_Structure/unit2/Stack/MediumExample/obj/Debug/net10.0/MediumExample.AssemblyInfoInputs.cache
+/home/alejandro/Bureau/Data_Structure/unit2/Stack/MediumExample/obj/Debug/net10.0/MediumExample.AssemblyInfo.cs
+/home/alejandro/Bureau/Data_Structure/unit2/Stack/MediumExample/obj/Debug/net10.0/MediumExample.csproj.CoreCompileInputs.cache
+/home/alejandro/Bureau/Data_Structure/unit2/Stack/MediumExample/bin/Debug/net10.0/MediumExample
+/home/alejandro/Bureau/Data_Structure/unit2/Stack/MediumExample/bin/Debug/net10.0/MediumExample.deps.json
+/home/alejandro/Bureau/Data_Structure/unit2/Stack/MediumExample/bin/Debug/net10.0/MediumExample.runtimeconfig.json
+/home/alejandro/Bureau/Data_Structure/unit2/Stack/MediumExample/bin/Debug/net10.0/MediumExample.dll
+/home/alejandro/Bureau/Data_Structure/unit2/Stack/MediumExample/bin/Debug/net10.0/MediumExample.pdb
+/home/alejandro/Bureau/Data_Structure/unit2/Stack/MediumExample/obj/Debug/net10.0/MediumExample.dll
+/home/alejandro/Bureau/Data_Structure/unit2/Stack/MediumExample/obj/Debug/net10.0/refint/MediumExample.dll
+/home/alejandro/Bureau/Data_Structure/unit2/Stack/MediumExample/obj/Debug/net10.0/MediumExample.pdb
+/home/alejandro/Bureau/Data_Structure/unit2/Stack/MediumExample/obj/Debug/net10.0/MediumExample.genruntimeconfig.cache
+/home/alejandro/Bureau/Data_Structure/unit2/Stack/MediumExample/obj/Debug/net10.0/ref/MediumExample.dll

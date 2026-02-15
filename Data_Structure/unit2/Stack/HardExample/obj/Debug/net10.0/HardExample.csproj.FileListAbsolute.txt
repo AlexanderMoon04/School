@@ -1,0 +1,14 @@
+/home/alejandro/Bureau/Data_Structure/unit2/Stack/HardExample/bin/Debug/net10.0/HardExample
+/home/alejandro/Bureau/Data_Structure/unit2/Stack/HardExample/bin/Debug/net10.0/HardExample.deps.json
+/home/alejandro/Bureau/Data_Structure/unit2/Stack/HardExample/bin/Debug/net10.0/HardExample.runtimeconfig.json
+/home/alejandro/Bureau/Data_Structure/unit2/Stack/HardExample/bin/Debug/net10.0/HardExample.dll
+/home/alejandro/Bureau/Data_Structure/unit2/Stack/HardExample/bin/Debug/net10.0/HardExample.pdb
+/home/alejandro/Bureau/Data_Structure/unit2/Stack/HardExample/obj/Debug/net10.0/HardExample.GeneratedMSBuildEditorConfig.editorconfig
+/home/alejandro/Bureau/Data_Structure/unit2/Stack/HardExample/obj/Debug/net10.0/HardExample.AssemblyInfoInputs.cache
+/home/alejandro/Bureau/Data_Structure/unit2/Stack/HardExample/obj/Debug/net10.0/HardExample.AssemblyInfo.cs
+/home/alejandro/Bureau/Data_Structure/unit2/Stack/HardExample/obj/Debug/net10.0/HardExample.csproj.CoreCompileInputs.cache
+/home/alejandro/Bureau/Data_Structure/unit2/Stack/HardExample/obj/Debug/net10.0/HardExample.dll
+/home/alejandro/Bureau/Data_Structure/unit2/Stack/HardExample/obj/Debug/net10.0/refint/HardExample.dll
+/home/alejandro/Bureau/Data_Structure/unit2/Stack/HardExample/obj/Debug/net10.0/HardExample.pdb
+/home/alejandro/Bureau/Data_Structure/unit2/Stack/HardExample/obj/Debug/net10.0/HardExample.genruntimeconfig.cache
+/home/alejandro/Bureau/Data_Structure/unit2/Stack/HardExample/obj/Debug/net10.0/ref/HardExample.dll

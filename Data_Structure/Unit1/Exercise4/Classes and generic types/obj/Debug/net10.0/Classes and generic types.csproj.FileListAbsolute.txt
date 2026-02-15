@@ -1,0 +1,14 @@
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise4/Classes and generic types/obj/Debug/net10.0/Classes and generic types.GeneratedMSBuildEditorConfig.editorconfig
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise4/Classes and generic types/obj/Debug/net10.0/Classes and generic types.AssemblyInfoInputs.cache
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise4/Classes and generic types/obj/Debug/net10.0/Classes and generic types.AssemblyInfo.cs
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise4/Classes and generic types/obj/Debug/net10.0/Classes and generic types.csproj.CoreCompileInputs.cache
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise4/Classes and generic types/bin/Debug/net10.0/Classes and generic types
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise4/Classes and generic types/bin/Debug/net10.0/Classes and generic types.deps.json
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise4/Classes and generic types/bin/Debug/net10.0/Classes and generic types.runtimeconfig.json
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise4/Classes and generic types/bin/Debug/net10.0/Classes and generic types.dll
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise4/Classes and generic types/bin/Debug/net10.0/Classes and generic types.pdb
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise4/Classes and generic types/obj/Debug/net10.0/Classes and generic types.dll
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise4/Classes and generic types/obj/Debug/net10.0/refint/Classes and generic types.dll
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise4/Classes and generic types/obj/Debug/net10.0/Classes and generic types.pdb
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise4/Classes and generic types/obj/Debug/net10.0/Classes and generic types.genruntimeconfig.cache
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise4/Classes and generic types/obj/Debug/net10.0/ref/Classes and generic types.dll

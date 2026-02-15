@@ -1,0 +1,14 @@
+/home/alejandro/Bureau/Data_Structure/unit2/LinkedList3/bin/Debug/net10.0/LinkedList3
+/home/alejandro/Bureau/Data_Structure/unit2/LinkedList3/bin/Debug/net10.0/LinkedList3.deps.json
+/home/alejandro/Bureau/Data_Structure/unit2/LinkedList3/bin/Debug/net10.0/LinkedList3.runtimeconfig.json
+/home/alejandro/Bureau/Data_Structure/unit2/LinkedList3/bin/Debug/net10.0/LinkedList3.dll
+/home/alejandro/Bureau/Data_Structure/unit2/LinkedList3/bin/Debug/net10.0/LinkedList3.pdb
+/home/alejandro/Bureau/Data_Structure/unit2/LinkedList3/obj/Debug/net10.0/LinkedList3.GeneratedMSBuildEditorConfig.editorconfig
+/home/alejandro/Bureau/Data_Structure/unit2/LinkedList3/obj/Debug/net10.0/LinkedList3.AssemblyInfoInputs.cache
+/home/alejandro/Bureau/Data_Structure/unit2/LinkedList3/obj/Debug/net10.0/LinkedList3.AssemblyInfo.cs
+/home/alejandro/Bureau/Data_Structure/unit2/LinkedList3/obj/Debug/net10.0/LinkedList3.csproj.CoreCompileInputs.cache
+/home/alejandro/Bureau/Data_Structure/unit2/LinkedList3/obj/Debug/net10.0/LinkedList3.dll
+/home/alejandro/Bureau/Data_Structure/unit2/LinkedList3/obj/Debug/net10.0/refint/LinkedList3.dll
+/home/alejandro/Bureau/Data_Structure/unit2/LinkedList3/obj/Debug/net10.0/LinkedList3.pdb
+/home/alejandro/Bureau/Data_Structure/unit2/LinkedList3/obj/Debug/net10.0/LinkedList3.genruntimeconfig.cache
+/home/alejandro/Bureau/Data_Structure/unit2/LinkedList3/obj/Debug/net10.0/ref/LinkedList3.dll

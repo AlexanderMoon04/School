@@ -1,0 +1,14 @@
+/home/alejandro/Bureau/Data_Structure/EjemploADT/bin/Debug/net10.0/EjemploADT
+/home/alejandro/Bureau/Data_Structure/EjemploADT/bin/Debug/net10.0/EjemploADT.deps.json
+/home/alejandro/Bureau/Data_Structure/EjemploADT/bin/Debug/net10.0/EjemploADT.runtimeconfig.json
+/home/alejandro/Bureau/Data_Structure/EjemploADT/bin/Debug/net10.0/EjemploADT.dll
+/home/alejandro/Bureau/Data_Structure/EjemploADT/bin/Debug/net10.0/EjemploADT.pdb
+/home/alejandro/Bureau/Data_Structure/EjemploADT/obj/Debug/net10.0/EjemploADT.GeneratedMSBuildEditorConfig.editorconfig
+/home/alejandro/Bureau/Data_Structure/EjemploADT/obj/Debug/net10.0/EjemploADT.AssemblyInfoInputs.cache
+/home/alejandro/Bureau/Data_Structure/EjemploADT/obj/Debug/net10.0/EjemploADT.AssemblyInfo.cs
+/home/alejandro/Bureau/Data_Structure/EjemploADT/obj/Debug/net10.0/EjemploADT.csproj.CoreCompileInputs.cache
+/home/alejandro/Bureau/Data_Structure/EjemploADT/obj/Debug/net10.0/EjemploADT.dll
+/home/alejandro/Bureau/Data_Structure/EjemploADT/obj/Debug/net10.0/refint/EjemploADT.dll
+/home/alejandro/Bureau/Data_Structure/EjemploADT/obj/Debug/net10.0/EjemploADT.pdb
+/home/alejandro/Bureau/Data_Structure/EjemploADT/obj/Debug/net10.0/EjemploADT.genruntimeconfig.cache
+/home/alejandro/Bureau/Data_Structure/EjemploADT/obj/Debug/net10.0/ref/EjemploADT.dll

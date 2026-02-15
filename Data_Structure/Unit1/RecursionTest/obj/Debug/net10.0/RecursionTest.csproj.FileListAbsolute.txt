@@ -1,0 +1,14 @@
+/home/alejandro/Bureau/Data_Structure/Unit1/RecursionTest/obj/Debug/net10.0/RecursionTest.GeneratedMSBuildEditorConfig.editorconfig
+/home/alejandro/Bureau/Data_Structure/Unit1/RecursionTest/obj/Debug/net10.0/RecursionTest.AssemblyInfoInputs.cache
+/home/alejandro/Bureau/Data_Structure/Unit1/RecursionTest/obj/Debug/net10.0/RecursionTest.AssemblyInfo.cs
+/home/alejandro/Bureau/Data_Structure/Unit1/RecursionTest/obj/Debug/net10.0/RecursionTest.csproj.CoreCompileInputs.cache
+/home/alejandro/Bureau/Data_Structure/Unit1/RecursionTest/bin/Debug/net10.0/RecursionTest
+/home/alejandro/Bureau/Data_Structure/Unit1/RecursionTest/bin/Debug/net10.0/RecursionTest.deps.json
+/home/alejandro/Bureau/Data_Structure/Unit1/RecursionTest/bin/Debug/net10.0/RecursionTest.runtimeconfig.json
+/home/alejandro/Bureau/Data_Structure/Unit1/RecursionTest/bin/Debug/net10.0/RecursionTest.dll
+/home/alejandro/Bureau/Data_Structure/Unit1/RecursionTest/bin/Debug/net10.0/RecursionTest.pdb
+/home/alejandro/Bureau/Data_Structure/Unit1/RecursionTest/obj/Debug/net10.0/RecursionTest.dll
+/home/alejandro/Bureau/Data_Structure/Unit1/RecursionTest/obj/Debug/net10.0/refint/RecursionTest.dll
+/home/alejandro/Bureau/Data_Structure/Unit1/RecursionTest/obj/Debug/net10.0/RecursionTest.pdb
+/home/alejandro/Bureau/Data_Structure/Unit1/RecursionTest/obj/Debug/net10.0/RecursionTest.genruntimeconfig.cache
+/home/alejandro/Bureau/Data_Structure/Unit1/RecursionTest/obj/Debug/net10.0/ref/RecursionTest.dll

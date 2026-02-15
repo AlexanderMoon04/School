@@ -1,0 +1,14 @@
+/home/alejandro/Bureau/Data_Structure/unit2/ListsCarrousel/bin/Debug/net10.0/ListsCarrousel
+/home/alejandro/Bureau/Data_Structure/unit2/ListsCarrousel/bin/Debug/net10.0/ListsCarrousel.deps.json
+/home/alejandro/Bureau/Data_Structure/unit2/ListsCarrousel/bin/Debug/net10.0/ListsCarrousel.runtimeconfig.json
+/home/alejandro/Bureau/Data_Structure/unit2/ListsCarrousel/bin/Debug/net10.0/ListsCarrousel.dll
+/home/alejandro/Bureau/Data_Structure/unit2/ListsCarrousel/bin/Debug/net10.0/ListsCarrousel.pdb
+/home/alejandro/Bureau/Data_Structure/unit2/ListsCarrousel/obj/Debug/net10.0/ListsCarrousel.GeneratedMSBuildEditorConfig.editorconfig
+/home/alejandro/Bureau/Data_Structure/unit2/ListsCarrousel/obj/Debug/net10.0/ListsCarrousel.AssemblyInfoInputs.cache
+/home/alejandro/Bureau/Data_Structure/unit2/ListsCarrousel/obj/Debug/net10.0/ListsCarrousel.AssemblyInfo.cs
+/home/alejandro/Bureau/Data_Structure/unit2/ListsCarrousel/obj/Debug/net10.0/ListsCarrousel.csproj.CoreCompileInputs.cache
+/home/alejandro/Bureau/Data_Structure/unit2/ListsCarrousel/obj/Debug/net10.0/ListsCarrousel.dll
+/home/alejandro/Bureau/Data_Structure/unit2/ListsCarrousel/obj/Debug/net10.0/refint/ListsCarrousel.dll
+/home/alejandro/Bureau/Data_Structure/unit2/ListsCarrousel/obj/Debug/net10.0/ListsCarrousel.pdb
+/home/alejandro/Bureau/Data_Structure/unit2/ListsCarrousel/obj/Debug/net10.0/ListsCarrousel.genruntimeconfig.cache
+/home/alejandro/Bureau/Data_Structure/unit2/ListsCarrousel/obj/Debug/net10.0/ref/ListsCarrousel.dll

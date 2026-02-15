@@ -1,0 +1,14 @@
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise1/Abstract data type (ADT)/bin/Debug/net10.0/Abstract data type (ADT)
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise1/Abstract data type (ADT)/bin/Debug/net10.0/Abstract data type (ADT).deps.json
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise1/Abstract data type (ADT)/bin/Debug/net10.0/Abstract data type (ADT).runtimeconfig.json
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise1/Abstract data type (ADT)/bin/Debug/net10.0/Abstract data type (ADT).dll
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise1/Abstract data type (ADT)/bin/Debug/net10.0/Abstract data type (ADT).pdb
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise1/Abstract data type (ADT)/obj/Debug/net10.0/Abstract data type (ADT).GeneratedMSBuildEditorConfig.editorconfig
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise1/Abstract data type (ADT)/obj/Debug/net10.0/Abstract data type (ADT).AssemblyInfoInputs.cache
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise1/Abstract data type (ADT)/obj/Debug/net10.0/Abstract data type (ADT).AssemblyInfo.cs
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise1/Abstract data type (ADT)/obj/Debug/net10.0/Abstract data type (ADT).csproj.CoreCompileInputs.cache
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise1/Abstract data type (ADT)/obj/Debug/net10.0/Abstract data type (ADT).dll
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise1/Abstract data type (ADT)/obj/Debug/net10.0/refint/Abstract data type (ADT).dll
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise1/Abstract data type (ADT)/obj/Debug/net10.0/Abstract data type (ADT).pdb
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise1/Abstract data type (ADT)/obj/Debug/net10.0/Abstract data type (ADT).genruntimeconfig.cache
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise1/Abstract data type (ADT)/obj/Debug/net10.0/ref/Abstract data type (ADT).dll

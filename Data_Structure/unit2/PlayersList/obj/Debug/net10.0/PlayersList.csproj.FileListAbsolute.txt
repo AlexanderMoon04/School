@@ -1,0 +1,14 @@
+/home/alejandro/Bureau/Data_Structure/unit2/PlayersList/bin/Debug/net10.0/PlayersList
+/home/alejandro/Bureau/Data_Structure/unit2/PlayersList/bin/Debug/net10.0/PlayersList.deps.json
+/home/alejandro/Bureau/Data_Structure/unit2/PlayersList/bin/Debug/net10.0/PlayersList.runtimeconfig.json
+/home/alejandro/Bureau/Data_Structure/unit2/PlayersList/bin/Debug/net10.0/PlayersList.dll
+/home/alejandro/Bureau/Data_Structure/unit2/PlayersList/bin/Debug/net10.0/PlayersList.pdb
+/home/alejandro/Bureau/Data_Structure/unit2/PlayersList/obj/Debug/net10.0/PlayersList.GeneratedMSBuildEditorConfig.editorconfig
+/home/alejandro/Bureau/Data_Structure/unit2/PlayersList/obj/Debug/net10.0/PlayersList.AssemblyInfoInputs.cache
+/home/alejandro/Bureau/Data_Structure/unit2/PlayersList/obj/Debug/net10.0/PlayersList.AssemblyInfo.cs
+/home/alejandro/Bureau/Data_Structure/unit2/PlayersList/obj/Debug/net10.0/PlayersList.csproj.CoreCompileInputs.cache
+/home/alejandro/Bureau/Data_Structure/unit2/PlayersList/obj/Debug/net10.0/PlayersList.dll
+/home/alejandro/Bureau/Data_Structure/unit2/PlayersList/obj/Debug/net10.0/refint/PlayersList.dll
+/home/alejandro/Bureau/Data_Structure/unit2/PlayersList/obj/Debug/net10.0/PlayersList.pdb
+/home/alejandro/Bureau/Data_Structure/unit2/PlayersList/obj/Debug/net10.0/PlayersList.genruntimeconfig.cache
+/home/alejandro/Bureau/Data_Structure/unit2/PlayersList/obj/Debug/net10.0/ref/PlayersList.dll

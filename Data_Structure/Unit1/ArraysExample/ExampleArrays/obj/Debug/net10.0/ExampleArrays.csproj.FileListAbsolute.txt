@@ -1,0 +1,14 @@
+/home/alejandro/Bureau/Data_Structure/ArraysExample/ExampleArrays/bin/Debug/net10.0/ExampleArrays
+/home/alejandro/Bureau/Data_Structure/ArraysExample/ExampleArrays/bin/Debug/net10.0/ExampleArrays.deps.json
+/home/alejandro/Bureau/Data_Structure/ArraysExample/ExampleArrays/bin/Debug/net10.0/ExampleArrays.runtimeconfig.json
+/home/alejandro/Bureau/Data_Structure/ArraysExample/ExampleArrays/bin/Debug/net10.0/ExampleArrays.dll
+/home/alejandro/Bureau/Data_Structure/ArraysExample/ExampleArrays/bin/Debug/net10.0/ExampleArrays.pdb
+/home/alejandro/Bureau/Data_Structure/ArraysExample/ExampleArrays/obj/Debug/net10.0/ExampleArrays.GeneratedMSBuildEditorConfig.editorconfig
+/home/alejandro/Bureau/Data_Structure/ArraysExample/ExampleArrays/obj/Debug/net10.0/ExampleArrays.AssemblyInfoInputs.cache
+/home/alejandro/Bureau/Data_Structure/ArraysExample/ExampleArrays/obj/Debug/net10.0/ExampleArrays.AssemblyInfo.cs
+/home/alejandro/Bureau/Data_Structure/ArraysExample/ExampleArrays/obj/Debug/net10.0/ExampleArrays.csproj.CoreCompileInputs.cache
+/home/alejandro/Bureau/Data_Structure/ArraysExample/ExampleArrays/obj/Debug/net10.0/ExampleArrays.dll
+/home/alejandro/Bureau/Data_Structure/ArraysExample/ExampleArrays/obj/Debug/net10.0/refint/ExampleArrays.dll
+/home/alejandro/Bureau/Data_Structure/ArraysExample/ExampleArrays/obj/Debug/net10.0/ExampleArrays.pdb
+/home/alejandro/Bureau/Data_Structure/ArraysExample/ExampleArrays/obj/Debug/net10.0/ExampleArrays.genruntimeconfig.cache
+/home/alejandro/Bureau/Data_Structure/ArraysExample/ExampleArrays/obj/Debug/net10.0/ref/ExampleArrays.dll

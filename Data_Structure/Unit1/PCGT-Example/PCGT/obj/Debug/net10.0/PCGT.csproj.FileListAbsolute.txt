@@ -1,0 +1,14 @@
+/home/alejandro/Bureau/Data_Structure/PCGT-Example/PCGT/obj/Debug/net10.0/PCGT.GeneratedMSBuildEditorConfig.editorconfig
+/home/alejandro/Bureau/Data_Structure/PCGT-Example/PCGT/obj/Debug/net10.0/PCGT.AssemblyInfoInputs.cache
+/home/alejandro/Bureau/Data_Structure/PCGT-Example/PCGT/obj/Debug/net10.0/PCGT.AssemblyInfo.cs
+/home/alejandro/Bureau/Data_Structure/PCGT-Example/PCGT/obj/Debug/net10.0/PCGT.csproj.CoreCompileInputs.cache
+/home/alejandro/Bureau/Data_Structure/PCGT-Example/PCGT/bin/Debug/net10.0/PCGT
+/home/alejandro/Bureau/Data_Structure/PCGT-Example/PCGT/bin/Debug/net10.0/PCGT.deps.json
+/home/alejandro/Bureau/Data_Structure/PCGT-Example/PCGT/bin/Debug/net10.0/PCGT.runtimeconfig.json
+/home/alejandro/Bureau/Data_Structure/PCGT-Example/PCGT/bin/Debug/net10.0/PCGT.dll
+/home/alejandro/Bureau/Data_Structure/PCGT-Example/PCGT/bin/Debug/net10.0/PCGT.pdb
+/home/alejandro/Bureau/Data_Structure/PCGT-Example/PCGT/obj/Debug/net10.0/PCGT.dll
+/home/alejandro/Bureau/Data_Structure/PCGT-Example/PCGT/obj/Debug/net10.0/refint/PCGT.dll
+/home/alejandro/Bureau/Data_Structure/PCGT-Example/PCGT/obj/Debug/net10.0/PCGT.pdb
+/home/alejandro/Bureau/Data_Structure/PCGT-Example/PCGT/obj/Debug/net10.0/PCGT.genruntimeconfig.cache
+/home/alejandro/Bureau/Data_Structure/PCGT-Example/PCGT/obj/Debug/net10.0/ref/PCGT.dll

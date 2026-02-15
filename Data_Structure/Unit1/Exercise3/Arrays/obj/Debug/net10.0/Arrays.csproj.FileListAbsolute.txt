@@ -1,0 +1,14 @@
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise3/Arrays/bin/Debug/net10.0/Arrays
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise3/Arrays/bin/Debug/net10.0/Arrays.deps.json
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise3/Arrays/bin/Debug/net10.0/Arrays.runtimeconfig.json
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise3/Arrays/bin/Debug/net10.0/Arrays.dll
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise3/Arrays/bin/Debug/net10.0/Arrays.pdb
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise3/Arrays/obj/Debug/net10.0/Arrays.GeneratedMSBuildEditorConfig.editorconfig
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise3/Arrays/obj/Debug/net10.0/Arrays.AssemblyInfoInputs.cache
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise3/Arrays/obj/Debug/net10.0/Arrays.AssemblyInfo.cs
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise3/Arrays/obj/Debug/net10.0/Arrays.csproj.CoreCompileInputs.cache
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise3/Arrays/obj/Debug/net10.0/Arrays.dll
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise3/Arrays/obj/Debug/net10.0/refint/Arrays.dll
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise3/Arrays/obj/Debug/net10.0/Arrays.pdb
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise3/Arrays/obj/Debug/net10.0/Arrays.genruntimeconfig.cache
+/home/alejandro/Bureau/Data_Structure/Unit1/Exercise3/Arrays/obj/Debug/net10.0/ref/Arrays.dll

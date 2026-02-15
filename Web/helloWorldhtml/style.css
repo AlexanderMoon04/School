@@ -1,0 +1,14 @@
+body {
+   color: rgb(0, 0, 255);
+}
+
+.div1 {
+   font-size: 43px;
+   font-weight: bold;
+   color: red;
+}
+
+#div1{
+   text-align: center;
+   color:chartreuse;
+}

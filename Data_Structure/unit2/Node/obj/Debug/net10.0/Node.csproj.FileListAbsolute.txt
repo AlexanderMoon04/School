@@ -1,0 +1,14 @@
+/home/alejandro/Bureau/Data_Structure/unit2/Node/bin/Debug/net10.0/Node
+/home/alejandro/Bureau/Data_Structure/unit2/Node/bin/Debug/net10.0/Node.deps.json
+/home/alejandro/Bureau/Data_Structure/unit2/Node/bin/Debug/net10.0/Node.runtimeconfig.json
+/home/alejandro/Bureau/Data_Structure/unit2/Node/bin/Debug/net10.0/Node.dll
+/home/alejandro/Bureau/Data_Structure/unit2/Node/bin/Debug/net10.0/Node.pdb
+/home/alejandro/Bureau/Data_Structure/unit2/Node/obj/Debug/net10.0/Node.GeneratedMSBuildEditorConfig.editorconfig
+/home/alejandro/Bureau/Data_Structure/unit2/Node/obj/Debug/net10.0/Node.AssemblyInfoInputs.cache
+/home/alejandro/Bureau/Data_Structure/unit2/Node/obj/Debug/net10.0/Node.AssemblyInfo.cs
+/home/alejandro/Bureau/Data_Structure/unit2/Node/obj/Debug/net10.0/Node.csproj.CoreCompileInputs.cache
+/home/alejandro/Bureau/Data_Structure/unit2/Node/obj/Debug/net10.0/Node.dll
+/home/alejandro/Bureau/Data_Structure/unit2/Node/obj/Debug/net10.0/refint/Node.dll
+/home/alejandro/Bureau/Data_Structure/unit2/Node/obj/Debug/net10.0/Node.pdb
+/home/alejandro/Bureau/Data_Structure/unit2/Node/obj/Debug/net10.0/Node.genruntimeconfig.cache
+/home/alejandro/Bureau/Data_Structure/unit2/Node/obj/Debug/net10.0/ref/Node.dll

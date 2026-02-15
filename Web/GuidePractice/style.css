@@ -1,0 +1,13 @@
+select#Courses{
+background-color:lightsalmon;
+color: black;
+padding: 15px;
+border: 2px solid rgb(145, 18, 18);
+border-radius: 10px;
+}
+select#Courses:hover{
+color: tomato;
+font-size: 20px;
+background: blueviolet;
+}
+

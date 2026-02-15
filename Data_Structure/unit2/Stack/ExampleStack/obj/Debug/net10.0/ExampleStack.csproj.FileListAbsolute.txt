@@ -1,0 +1,14 @@
+/home/alejandro/Bureau/Data_Structure/unit2/Stack/ExampleStack/bin/Debug/net10.0/ExampleStack
+/home/alejandro/Bureau/Data_Structure/unit2/Stack/ExampleStack/bin/Debug/net10.0/ExampleStack.deps.json
+/home/alejandro/Bureau/Data_Structure/unit2/Stack/ExampleStack/bin/Debug/net10.0/ExampleStack.runtimeconfig.json
+/home/alejandro/Bureau/Data_Structure/unit2/Stack/ExampleStack/bin/Debug/net10.0/ExampleStack.dll
+/home/alejandro/Bureau/Data_Structure/unit2/Stack/ExampleStack/bin/Debug/net10.0/ExampleStack.pdb
+/home/alejandro/Bureau/Data_Structure/unit2/Stack/ExampleStack/obj/Debug/net10.0/ExampleStack.GeneratedMSBuildEditorConfig.editorconfig
+/home/alejandro/Bureau/Data_Structure/unit2/Stack/ExampleStack/obj/Debug/net10.0/ExampleStack.AssemblyInfoInputs.cache
+/home/alejandro/Bureau/Data_Structure/unit2/Stack/ExampleStack/obj/Debug/net10.0/ExampleStack.AssemblyInfo.cs
+/home/alejandro/Bureau/Data_Structure/unit2/Stack/ExampleStack/obj/Debug/net10.0/ExampleStack.csproj.CoreCompileInputs.cache
+/home/alejandro/Bureau/Data_Structure/unit2/Stack/ExampleStack/obj/Debug/net10.0/ExampleStack.dll
+/home/alejandro/Bureau/Data_Structure/unit2/Stack/ExampleStack/obj/Debug/net10.0/refint/ExampleStack.dll
+/home/alejandro/Bureau/Data_Structure/unit2/Stack/ExampleStack/obj/Debug/net10.0/ExampleStack.pdb
+/home/alejandro/Bureau/Data_Structure/unit2/Stack/ExampleStack/obj/Debug/net10.0/ExampleStack.genruntimeconfig.cache
+/home/alejandro/Bureau/Data_Structure/unit2/Stack/ExampleStack/obj/Debug/net10.0/ref/ExampleStack.dll
