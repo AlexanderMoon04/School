@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/alejandro/Bureau/Data_Structure/unit2/PracticeLists/PracticeLists.csproj": {}
+    "/home/alejandro/Bureau/School/Data_Structure/unit2/PracticeLists/PracticeLists.csproj": {}
   },
   "projects": {
-    "/home/alejandro/Bureau/Data_Structure/unit2/PracticeLists/PracticeLists.csproj": {
+    "/home/alejandro/Bureau/School/Data_Structure/unit2/PracticeLists/PracticeLists.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/alejandro/Bureau/Data_Structure/unit2/PracticeLists/PracticeLists.csproj",
+        "projectUniqueName": "/home/alejandro/Bureau/School/Data_Structure/unit2/PracticeLists/PracticeLists.csproj",
         "projectName": "PracticeLists",
-        "projectPath": "/home/alejandro/Bureau/Data_Structure/unit2/PracticeLists/PracticeLists.csproj",
+        "projectPath": "/home/alejandro/Bureau/School/Data_Structure/unit2/PracticeLists/PracticeLists.csproj",
         "packagesPath": "/home/alejandro/.nuget/packages/",
-        "outputPath": "/home/alejandro/Bureau/Data_Structure/unit2/PracticeLists/obj/",
+        "outputPath": "/home/alejandro/Bureau/School/Data_Structure/unit2/PracticeLists/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/alejandro/.nuget/NuGet/NuGet.Config"
