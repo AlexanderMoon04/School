@@ -1,7 +1,7 @@
 import { Colors } from '../constants/colors';
 import { StyleSheet } from 'react-native';
 
-export const styles = StyleSheet.create({
+export const Styles = StyleSheet.create({
   background: {
     flex: 1,
     backgroundColor: Colors.background,

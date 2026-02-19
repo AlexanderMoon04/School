@@ -124,7 +124,7 @@ public class Node<T>
 public class CircularList<T>
 {
    private Node<T> lastNode;
-   public void Insert(T data)
+   public void Insert(CircularList<T> songs, T data)
    {
       Node<T> node = new Node<T>(data);
       if (lastNode == null)
@@ -139,8 +139,35 @@ public class CircularList<T>
          lastNode = node;
       }
    }
+   public void Delete(CircularList<string> songs, T data)
+   {
+      if (lastNode == null) return;
 
-   public void Show(int turns)
+      Node<T> current = lastNode.Next;
+      Node<T> previous = lastNode;
+
+         if (current.Value.Equals(data))
+         {
+            if (current == lastNode)
+            {
+               if (current.Next == current)
+               {
+                  lastNode = null; // List becomes empty
+               }
+               else
+               {
+                  previous.Next = current.Next;
+                  lastNode = previous; // Update last node if we're deleting the last node
+               }
+            }
+            else
+            {
+               previous.Next = current.Next; // Bypass the current
+            }
+            Console.WriteLine($"Song {data} removed successfully.");
+         }
+   }
+   public void Play(int turns)
    {
       if (lastNode == null) return;
       Node<T> actual = lastNode.Next;
@@ -152,6 +179,22 @@ public class CircularList<T>
 
       Console.WriteLine("...");
    }
+
+   public void Display(CircularList<string> songs)
+   {
+      if (lastNode == null)
+      {
+         Console.WriteLine("No songs in the list :(");
+         return;
+      }
+      Node<T> current = lastNode.Next;
+      do
+      {
+         Console.WriteLine(current.Value);
+         current = current.Next;
+      } while (current != lastNode.Next);
+   }
+
 }
 public class Program
 {
@@ -190,7 +233,6 @@ public class Program
       LinkedList<string> DoublyLinkedSongs = new LinkedList<string>();
       CircularList<string> CircularSongs = new CircularList<string>();
 
-
       string selectedList = "simple";
 
       bool running = true;
@@ -228,8 +270,8 @@ public class Program
                   simple.Add(SimpleSongs, songToAdd);
                else if (selectedList == "doubleLinked")
                   doublyLinked.Add(DoublyLinkedSongs, songToAdd);
-               // else if (selectedList == "circular")
-                  // circular.Add(CircularSongs, songToAdd);
+               else if (selectedList == "circular")
+                  circular.Insert(CircularSongs, songToAdd);
                break;
 
             case 3:
@@ -239,8 +281,8 @@ public class Program
                   simple.Delete(SimpleSongs, songToDelete);
                else if (selectedList == "doubleLinked")
                   doublyLinked.Delete(DoublyLinkedSongs, songToDelete);
-               // else if (selectedList == "circular")
-                  // circular.Delete(CircularSongs, songToDelete);
+               else if (selectedList == "circular")
+                  circular.Delete(CircularSongs, songToDelete);
                break;
 
             case 4:
@@ -248,8 +290,8 @@ public class Program
                   simple.Play(SimpleSongs);
                else if (selectedList == "doubleLinked")
                   doublyLinked.Play(DoublyLinkedSongs);
-               // else if (selectedList == "circular")
-                  // circular.Play(CircularSongs);
+               else if (selectedList == "circular")
+                  circular.Play(10);
                break;
 
             case 5:
@@ -257,8 +299,8 @@ public class Program
                   simple.Display(SimpleSongs);
                else if (selectedList == "doubleLinked")
                   doublyLinked.Display(DoublyLinkedSongs);
-               // else if (selectedList == "circular")
-                  // circular.Display(CircularSongs);
+               else if (selectedList == "circular")
+                  circular.Display(CircularSongs);
                break;
 
             case 6:
