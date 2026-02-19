@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="DataRace/DataRace.csproj" />
+  <Project Path="HardExample/HardExample.csproj" />
+  <Project Path="MediumExample/MediumExample.csproj" />
+</Solution>

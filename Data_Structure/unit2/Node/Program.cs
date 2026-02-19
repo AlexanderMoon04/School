@@ -33,7 +33,6 @@ public class CircularList<T>
          Console.WriteLine(actual.Value + " -> ");
          actual = actual.Next;
       }
-
       Console.WriteLine("...");
    }
 }
