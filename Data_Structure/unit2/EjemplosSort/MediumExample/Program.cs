@@ -9,7 +9,7 @@ public class Producto
 
 public class Program
 {
-    public static void Main()
+public static void Main()
     {
         List<Producto> carrito = new List<Producto>
         {

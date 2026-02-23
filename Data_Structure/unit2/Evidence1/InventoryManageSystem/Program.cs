@@ -15,8 +15,9 @@ public class Product
 
    public static void DeleteProduct(LinkedList<Product> inventory, string name)
    {
+      //Node implementation
       var node = inventory.First;
-      while (node != null)
+      while (node != null)  
       {
          if (string.Equals(node.Value.Name, name, StringComparison.OrdinalIgnoreCase))
          {
