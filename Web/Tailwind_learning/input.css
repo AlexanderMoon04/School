@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@plugin "@midudev/tailwind-animations";
+
+/* Import fonts */
+/* @font-face{
+   font-family: 'MyCustomFont';
+   src: url('/assets/fonts/MyCustomFont.woff2') format('woff2'),
+        url('/assets/fonts/MyCustomFont.woff') format('woff');
+   font-weight: 100 700;
+   font-style: normal;
+   font-display: swap;
+} */
+
+@theme 
+{
+   --color-primary: #09F;
+   --color-primary-light: #ceecff;
+   --color-primary-dark: rgb(0 ,22, 83);
+
+   /* Fonts */
+   /* --font-sans: 'MyCustomFont', sans-serif; */
+
+   /* Breakpoints */
+   --breakpoint-xs: 350px;
+}
+
+.social-button
+{
+   @apply p-2 size-12 xs:size-16 flex items-center justify-center rounded-full
+    hover:scale-110 transition-transform;
+}

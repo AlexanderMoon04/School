@@ -301,7 +301,7 @@ public class Program
                   doublyLinked.Display(DoublyLinkedSongs);
                else if (selectedList == "circular")
                   circular.Display(CircularSongs);
-               break;
+                  break;
 
             case 6:
                System.Console.WriteLine("\nExiting...");

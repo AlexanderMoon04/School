@@ -1,0 +1,6 @@
+// Asociate files with tailwindcss
+{
+   "files.associations": {
+      "*.css": "tailwindcss"
+   }
+}
