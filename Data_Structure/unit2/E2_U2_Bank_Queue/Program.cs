@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-
-public class Bank
+﻿public class Bank // class Bank to manage the queue of customers and their
+                  // actions
 {
    public class Customer
    {
@@ -12,16 +10,19 @@ public class Bank
    {
       System.Console.WriteLine("Customer's name to add: ");
       string customerName = Console.ReadLine();
-      Customer newCustomer = new Customer { Name = customerName, DateArrival = DateTime.Now };
+      Customer newCustomer =
+          new Customer { Name = customerName, DateArrival = DateTime.Now };
       q.Enqueue(newCustomer);
-      System.Console.WriteLine($"Customer '{customerName}' added to the queue at {newCustomer.DateArrival:yyyy-MM-dd HH:mm:ss}.");
+      System.Console.WriteLine(
+          $"Customer '{customerName}' added to the queue at {newCustomer.DateArrival:yyyy-MM-dd HH:mm:ss}.");
    }
    public void ProcessCustomer(Queue<Customer> q)
    {
       if (q.Count > 0)
       {
          Customer processedCustomer = q.Dequeue();
-         System.Console.WriteLine($"Processed customer: {processedCustomer.Name}");
+         System.Console.WriteLine(
+             $"Processed customer: {processedCustomer.Name}");
       }
       else
       {
@@ -47,7 +48,8 @@ public class Bank
          Console.WriteLine("Full queue:");
          foreach (var customer in q)
          {
-            Console.WriteLine($"Customer: {customer.Name}, Arrival Time: {customer.DateArrival:yyyy-MM-dd HH:mm:ss}");
+            Console.WriteLine(
+                $"Customer: {customer.Name}, Arrival Time: {customer.DateArrival:yyyy-MM-dd HH:mm:ss}");
          }
       }
       else
@@ -55,7 +57,6 @@ public class Bank
          Console.WriteLine("The queue is empty.");
       }
    }
-
    public void PerformAction(Stack<string> a)
    {
       Console.WriteLine("\nEnter action to perform:");
@@ -77,9 +78,7 @@ public class Bank
       {
          Console.WriteLine("\nNo actions to undo.");
          System.Console.WriteLine("Press any key to continue...");
-
       }
-
    }
    public void ViewCurrentAction(Stack<string> a)
    {
@@ -94,7 +93,6 @@ public class Bank
       {
          Console.WriteLine("\nNo actions available.");
          System.Console.WriteLine("Press any key to continue...");
-
       }
    }
    public void ViewHistoryActions(Stack<string> a)
@@ -113,6 +111,33 @@ public class Bank
       {
          Console.WriteLine("\nNo actions available.");
          System.Console.WriteLine("Press any key to continue...");
+      }
+   }
+   public void ToListAndSort(Queue<Customer> q, List<Customer> l)
+   {
+      if (q.Count == 0)
+      {
+         Console.WriteLine("The queue is empty.");
+         return;
+      }
+      else if (q.Count == 1)
+      {
+         Console.WriteLine("Only one customer is present, no need to sort.");
+         l.Clear();
+         l.Add(q.Peek());
+         return;
+      }
+      else
+      {
+         // Clear list before adding items and sorting
+         l.Clear();
+         foreach (var customer in q)
+         {
+            l.Add(customer);
+         }
+         // Sort alphabetically by Customer.Name
+         l.Sort((x, y) => string.Compare(x.Name, y.Name,
+                                         StringComparison.Ordinal));
       }
    }
 }
@@ -135,44 +160,48 @@ public class Program
          ConsoleKeyInfo keyInfo = Console.ReadKey();
          switch (keyInfo.Key)
          {
-            case ConsoleKey.D1: //1. Do something
+            case ConsoleKey.D1: // 1. Do something
                bank.PerformAction(actions);
                break;
 
-            case ConsoleKey.D2: //2. Undo action
+            case ConsoleKey.D2: // 2. Undo action
                bank.UndoAction(actions);
                break;
 
-            case ConsoleKey.D3: //3. View current action
+            case ConsoleKey.D3: // 3. View current action
                bank.ViewCurrentAction(actions);
                break;
 
-            case ConsoleKey.D4: //4. Show history actions
+            case ConsoleKey.D4: // 4. Show history actions
                bank.ViewHistoryActions(actions);
                break;
          }
-      } while (Console.ReadKey().Key != ConsoleKey.Escape);
+      } while (Console.ReadKey().Key !=
+               ConsoleKey.Escape); // Menu loop until ESC is pressed
    }
-   
+
    public static void Main()
    {
       Queue<Bank.Customer> customerQueue = new Queue<Bank.Customer>();
       Bank bank = new Bank();
+      List<Bank.Customer> customerList = new List<Bank.Customer>();
 
       bool running = true;
       while (running)
       {
          Console.WriteLine("------------------------");
-         Console.WriteLine("Bank queue simulator"); 
-         //queue
-         Console.WriteLine("Write the desired option:"); 
+         Console.WriteLine("Bank queue simulator");
+         // queue
+         Console.WriteLine("Write the desired option:");
          Console.WriteLine("1. Add Customer");
          Console.WriteLine("2. Process Customer");
          Console.WriteLine("3. View next Customer");
          Console.WriteLine("4. Show full queue");
-         //queue
-         Console.WriteLine("5. Customer actions"); //stack
-         Console.WriteLine("6. Exit");
+         Console.WriteLine("5. Sort customers by name");
+         Console.WriteLine("6. Search for customer");
+         // queue
+         Console.WriteLine("7. Customer actions"); // stack
+         Console.WriteLine("8. Exit");
          int option;
          Console.WriteLine("Write the desired option:");
          string input = Console.ReadLine() ?? string.Empty;
@@ -202,10 +231,43 @@ public class Program
                break;
 
             case 5:
-               MenuActions();
+               bank.ToListAndSort(customerQueue, customerList);
+               foreach (var customer in customerList)
+               {
+                  Console.WriteLine($"- {customer.Name}");
+               }
                break;
 
             case 6:
+               // Search
+               if (customerList.Count == 0)
+               {
+                  System.Console.WriteLine("Please use option 5 to order the list first");
+               }
+               System.Console.WriteLine("Please ingress the name of the client you are searching for");
+               string nameSearch = Console.ReadLine();
+               Bank.Customer search = new Bank.Customer { Name = nameSearch };
+               int index = customerList.BinarySearch(
+               search,
+               Comparer<Bank.Customer>.Create((x, y) => string.Compare(x.Name, y.Name, StringComparison.Ordinal))
+           );
+
+               if (index >= 0)
+               {
+                  Console.WriteLine($"The customer {customerList[index].Name} was found at position {index}");
+                  Console.WriteLine($"Arrival Time: {customerList[index].DateArrival:yyyy-MM-dd HH:mm:ss}");
+               }
+               else
+               {
+                  Console.WriteLine($"the customer '{nameSearch}' was not found.");
+               }
+
+               break;
+            case 7:
+               MenuActions();
+               break;
+
+            case 8:
                running = false;
                System.Console.WriteLine("Exiting...");
                break;
