@@ -7,104 +7,117 @@
    <head>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <title></title>
+      <title>Horaire</title>
       <meta name="description" content="">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="style.min.css">
-      <link rel="stylesheet" href="styles.css">
+      <link href="./assets/output.css" rel="stylesheet">
+      <link rel="icon" href="assets/img/capybara.png" />
+
    </head>
 
-   <body>
+   <body class="min-h-dvh bg-gradient-to-b from-black via-sky-950 to-gray-800 text-sky-100">
 
-      <nav class="navbar">
-         <ul>
-            <li><a href="index.html">🏠</a></li>
-            <li><a href="schedule.html">BIS schedule</a></li>
-            <li><a href="CV.html">CV</a></li>
+      <nav class="flex justify-center pt-6 px-4 mb-8">
+         <ul class="flex w-full max-w-6xl items-center text-m font-medium text-sky-100 bg-black/40 border border-sky-500/40 rounded-full px-6 py-2 backdrop-blur-sm">
+            <li class="flex-1 text-center">
+               <a href="index.html" class="group inline-block transition-colors border-b-2 border-transparent hover:border-sky-300/50 pb-1">
+                  <span class="mx-auto block h-7 w-7 bg-sky-100 transition-colors group-hover:bg-sky-300"
+                        style="mask: url('assets/img/home3.svg') center/contain no-repeat; -webkit-mask: url('assets/img/home3.svg') center/contain no-repeat;">
+                  </span>
+               </a>
+            </li>
+            <li class="flex-1 text-center"><a href="schedule.html" class="inline-block text-sky-400 transition-colors border-b-2 border-sky-400 pb-1">Schedule</a></li>
+            <li class="flex-1 text-center"><a href="CV.html" class="inline-block hover:text-sky-300 transition-colors border-b-2 border-transparent hover:border-sky-300/50 pb-1">CV</a></li>
          </ul>
       </nav>
 
-         <table class="table table-striped table-bordered table-dark">
-            <thead>
-               <th>DSBIS42M</th>
-            </thead>
+      <main class="px-4 pb-16">
+         <section class="w-full max-w-6xl mx-auto rounded-3xl border border-sky-500/30 bg-black/35 backdrop-blur-sm p-4 md:p-6 shadow-2xl">
+            <h1 class="text-2xl md:text-3xl font-bold text-sky-300 mb-4">DSBIS42M Schedule</h1>
 
-            <tbody class="table-group-divider table-light">
-               <tr class="table table-dark">
-                  <td></td>
-                  <td class="apis">Monday</td>
-                  <td>Tuesday</td>
-                  <td>Wednesday</td>
-                  <td>Thursday</td>
-                  <td>Friday</td>
-               </tr>
-               <tr>
-                  <td>7:00 AM</td>
-                  <td class="apis">Profesional Ethic</td>
-                  <td class="subject software">Analysis and software design</td>
-                  <td></td>
-                  <td class="subject software">Analysis and software design</td>
-                  <td class="subject data">Data structures</td>
-               </tr>
-               <tr>
-                  <td>8:00 AM</td>
-                  <td class="subject ethic">Profesional Ethic</td>
-                  <td class="subject calculus">Calculus multivariable</td>
-                  <td class="subject calculus">Calculus multivariable</td>
-                  <td class="subject software">Analysis and software design</td>
-                  <td class="subject data">Data structures</td>
-               </tr>
-               <tr>
-                  <td>9:00 AM</td>
-                  <td class="subject software">Analysis and software design</td>
-                  <td class="subject calculus">Calculus multivariable</td>
-                  <td class="subject mobile">Movile development</td>
-                  <td class="subject mobile">Movile development</td>
-                  <td class="subject software">Analysis and software design</td>
-               </tr>
-               <tr>
-                  <td>10:00 AM</td>
-                  <td class="subject french">French</td>
-                  <td class="subject french">French</td>
-                  <td class="subject french">French</td>
-                  <td class="subject french">French</td>
-                  <td class="subject mobile">Movile development</td>
-               </tr>
-               <tr>
-                  <td>11:00 AM</td>
-                  <td class="subject french">French</td>
-                  <td class="subject french">French</td>
-                  <td class="subject french">French</td>
-                  <td class="subject french">French</td>
-                  <td class="subject ethic">Profesional Ethic</td>
-               </tr>
-               <tr>
-                  <td>12:00 PM</td>
-                  <td class="subject calculus">Calculus multivariable</td>
-                  <td class="subject data">Data structures</td>
-                  <td class="subject web">Web applications</td>
-                  <td class="subject web">Web applications</td>
-                  <td class="subject web">Web applications</td>
-               </tr>
-               <tr>
-                  <td>1:00 PM</td>
-                  <td class="subject mobile">Movile development</td>
-                  <td class="subject ethic">Profesional Ethic</td>
-                  <td class="subject data">Data structures</td>
-                  <td class="subject web">Web applications</td>
-                  <td class="subject calculus">Calculus multivariable</td>
-               </tr>
-               <tr>
-                  <td>2:00 PM</td>
-                  <td class="subject mobile">Movile development</td>
-                  <td class="subject mobile">Movile development</td>
-                  <td class="subject data">Data structures</td>
-                  <td class="subject web">Web applications</td>
-                  <td></td>
-               </tr>
-               <tr>
-            </tbody>
-        </table>
+            <div class="overflow-x-auto rounded-2xl border border-sky-500/25">
+               <table class="w-full min-w-[900px] border-collapse text-sm md:text-base">
+                  <thead>
+                     <tr class="bg-gradient-to-r from-violet-900/90 via-cyan-900/90 to-sky-900/90 text-sky-100">
+                        <th class="px-3 py-3 border border-sky-500/20 text-left">Hour</th>
+                        <th class="px-3 py-3 border border-sky-500/20 text-left">Monday</th>
+                        <th class="px-3 py-3 border border-sky-500/20 text-left">Tuesday</th>
+                        <th class="px-3 py-3 border border-sky-500/20 text-left">Wednesday</th>
+                        <th class="px-3 py-3 border border-sky-500/20 text-left">Thursday</th>
+                        <th class="px-3 py-3 border border-sky-500/20 text-left">Friday</th>
+                     </tr>
+                  </thead>
+
+                  <tbody class="[&>tr:nth-child(odd)]:bg-slate-950/60 [&>tr:nth-child(even)]:bg-slate-900/60 [&>tr:hover]:bg-cyan-900/35">
+                     <tr>
+                        <td class="px-3 py-3 border border-sky-500/20 font-semibold text-sky-300">7:00 AM</td>
+                        <td class="px-3 py-3 border border-sky-500/20 bg-fuchsia-900/35">Professional Ethic</td>
+                        <td class="px-3 py-3 border border-sky-500/20 bg-cyan-900/35">Analysis and software design</td>
+                        <td class="px-3 py-3 border border-sky-500/20"></td>
+                        <td class="px-3 py-3 border border-sky-500/20 bg-cyan-900/35">Analysis and software design</td>
+                        <td class="px-3 py-3 border border-sky-500/20 bg-blue-900/35">Data structures</td>
+                     </tr>
+                     <tr>
+                        <td class="px-3 py-3 border border-sky-500/20 font-semibold text-sky-300">8:00 AM</td>
+                        <td class="px-3 py-3 border border-sky-500/20 bg-fuchsia-900/35">Professional Ethic</td>
+                        <td class="px-3 py-3 border border-sky-500/20 bg-violet-900/35">Calculus multivariable</td>
+                        <td class="px-3 py-3 border border-sky-500/20 bg-violet-900/35">Calculus multivariable</td>
+                        <td class="px-3 py-3 border border-sky-500/20 bg-cyan-900/35">Analysis and software design</td>
+                        <td class="px-3 py-3 border border-sky-500/20 bg-blue-900/35">Data structures</td>
+                     </tr>
+                     <tr>
+                        <td class="px-3 py-3 border border-sky-500/20 font-semibold text-sky-300">9:00 AM</td>
+                        <td class="px-3 py-3 border border-sky-500/20 bg-cyan-900/35">Analysis and software design</td>
+                        <td class="px-3 py-3 border border-sky-500/20 bg-violet-900/35">Calculus multivariable</td>
+                        <td class="px-3 py-3 border border-sky-500/20 bg-emerald-900/35">Mobile development</td>
+                        <td class="px-3 py-3 border border-sky-500/20 bg-emerald-900/35">Mobile development</td>
+                        <td class="px-3 py-3 border border-sky-500/20 bg-cyan-900/35">Analysis and software design</td>
+                     </tr>
+                     <tr>
+                        <td class="px-3 py-3 border border-sky-500/20 font-semibold text-sky-300">10:00 AM</td>
+                        <td class="px-3 py-3 border border-sky-500/20 bg-indigo-900/35">French</td>
+                        <td class="px-3 py-3 border border-sky-500/20 bg-indigo-900/35">French</td>
+                        <td class="px-3 py-3 border border-sky-500/20 bg-indigo-900/35">French</td>
+                        <td class="px-3 py-3 border border-sky-500/20 bg-indigo-900/35">French</td>
+                        <td class="px-3 py-3 border border-sky-500/20 bg-emerald-900/35">Mobile development</td>
+                     </tr>
+                     <tr>
+                        <td class="px-3 py-3 border border-sky-500/20 font-semibold text-sky-300">11:00 AM</td>
+                        <td class="px-3 py-3 border border-sky-500/20 bg-indigo-900/35">French</td>
+                        <td class="px-3 py-3 border border-sky-500/20 bg-indigo-900/35">French</td>
+                        <td class="px-3 py-3 border border-sky-500/20 bg-indigo-900/35">French</td>
+                        <td class="px-3 py-3 border border-sky-500/20 bg-indigo-900/35">French</td>
+                        <td class="px-3 py-3 border border-sky-500/20 bg-fuchsia-900/35">Professional Ethic</td>
+                     </tr>
+                     <tr>
+                        <td class="px-3 py-3 border border-sky-500/20 font-semibold text-sky-300">12:00 PM</td>
+                        <td class="px-3 py-3 border border-sky-500/20 bg-violet-900/35">Calculus multivariable</td>
+                        <td class="px-3 py-3 border border-sky-500/20 bg-blue-900/35">Data structures</td>
+                        <td class="px-3 py-3 border border-sky-500/20 bg-teal-900/35">Web applications</td>
+                        <td class="px-3 py-3 border border-sky-500/20 bg-teal-900/35">Web applications</td>
+                        <td class="px-3 py-3 border border-sky-500/20 bg-teal-900/35">Web applications</td>
+                     </tr>
+                     <tr>
+                        <td class="px-3 py-3 border border-sky-500/20 font-semibold text-sky-300">1:00 PM</td>
+                        <td class="px-3 py-3 border border-sky-500/20 bg-emerald-900/35">Mobile development</td>
+                        <td class="px-3 py-3 border border-sky-500/20 bg-fuchsia-900/35">Professional Ethic</td>
+                        <td class="px-3 py-3 border border-sky-500/20 bg-blue-900/35">Data structures</td>
+                        <td class="px-3 py-3 border border-sky-500/20 bg-teal-900/35">Web applications</td>
+                        <td class="px-3 py-3 border border-sky-500/20 bg-violet-900/35">Calculus multivariable</td>
+                     </tr>
+                     <tr>
+                        <td class="px-3 py-3 border border-sky-500/20 font-semibold text-sky-300">2:00 PM</td>
+                        <td class="px-3 py-3 border border-sky-500/20 bg-emerald-900/35">Mobile development</td>
+                        <td class="px-3 py-3 border border-sky-500/20 bg-emerald-900/35">Mobile development</td>
+                        <td class="px-3 py-3 border border-sky-500/20 bg-blue-900/35">Data structures</td>
+                        <td class="px-3 py-3 border border-sky-500/20 bg-teal-900/35">Web applications</td>
+                        <td class="px-3 py-3 border border-sky-500/20"></td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
+         </section>
+      </main>
 
       
       <script src="" async defer></script>
