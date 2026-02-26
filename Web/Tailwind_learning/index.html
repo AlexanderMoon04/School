@@ -3,130 +3,174 @@
   <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>My Tailwind Page</title>
+      <title>Bonjour!</title>
       <link href="./assets/output.css" rel="stylesheet">
+      <link rel="icon" href="assets/img/axolotl.png" sizes="32x32" />
   </head>
 
    <body class="min-h-dvh bg-gradient-to-b from-black via-sky-950 to-gray-800">
+
+      <nav class="flex justify-center pt-6 px-4">
+         <ul class="flex w-full max-w-6xl items-center text-m font-medium text-sky-100 bg-black/40  rounded-full px-6 py-2 backdrop-blur-sm">
+            <li class="flex-1 text-center">
+               <a href="index.html" class="group inline-block transition-colors border-b-2 border-sky-400 pb-1">
+                  <span class="mx-auto block h-7 w-7 bg-sky-400 transition-colors group-hover:bg-sky-300"
+                        style="mask: url('assets/img/home3.svg') center/contain no-repeat; -webkit-mask: url('assets/img/home3.svg') center/contain no-repeat;">
+                  </span>
+               </a>
+            </li>
+            <li class="flex-1 text-center"><a href="schedule.html" class="inline-block hover:text-sky-300 transition-colors border-b-2 border-transparent hover:border-sky-300/50 pb-1">Schedule</a></li>
+            <li class="flex-1 text-center"><a href="CV.html" class="inline-block hover:text-sky-300 transition-colors border-b-2 border-transparent hover:border-sky-300/50 pb-1">CV</a></li>
+         </ul>
+      </nav>
       
       <img alt="Programmer cat" src="assets/img/ProgrammerCat.jpg" 
-      class="block mx-auto h-[50vh] object-cover mask-radial-at-center mask-radial-from-50% mask-radial-to-70%">
+      class="block mx-auto h-[40vh] object-cover mask-radial-at-center mask-radial-from-50% mask-radial-to-70%">
 
-      <header class="flex flex-col justify-center items-center mb-8 -mt-4">
-         <span class="text-sky-400 text-xl font-mono px-3 py-1 border border-sky-500/50 rounded-full flex items-center justify-center shadow-sm
-         bg-black/66 cursor-crosshair z-10">
+      <header class="flex flex-col justify-center items-center  -mt-10">
+         <span class="text-sky-400 text-xl font-mono px-3 py-1 border border-sky-500/50 rounded-full
+          flex items-center justify-center shadow-sm bg-black/66 cursor-crosshair z-10">
             Jaime Alejandro Luna Estrada
          </span>
       </header>
 
-         <section class="flex gap-2 justify-center">
-            <a class="bg-purple-100 social-button"
-            href="https://twitch.tv/midudev" target="_blank" aria-label="Twitch" title="Go to Midudev Twitch channel">
-               <svg width="32" height="32">
-               <use xlink:href="assets/sprite.svg#css"></use>
-               </svg>
-            </a>
-
-            <a class="bg-black social-button"
-            href="https://github.com/AlexanderMoon04" target="_blank" aria-label="Github" title="Go to AlexanderMoon04 Github">
-               <svg width="32" height="32">
-               <use xlink:href="assets/sprite.svg#github"></use>
-               </svg>
-            </a>
-
-            <!-- Instagram -->
-            <a class="bg-pink-500 social-button
-            bg-gradient-to-tr from-yellow-300 via-pink-600 to-purple-600"
-            href="https://instagram.com/midudev" target="_blank" aria-label="Instagram" title="Go to Midudev Instagram channel">
-               <svg width="32" height="32">
-               <use xlink:href="assets/sprite.svg#instagram"></use>
-               </svg>
-            </a>
-         </section>
-
-         <p class="text-primary text-center mt-4 text-sm px-4 text-balance">
-            Software Development student, passionate about web technologies and French language.
+         <p class="text-sky-100 text-center mt-8 mb-8 text-xl px-4 text-balance">
+            Software Development student, gymrat, passionate about web technologies and French language.
          </p>
          
          <!-- Bento -->
-         <main class="pt-4 px-4 pb-16 w-full">
-            <div class="grid grid-cols-6 grid-rows-2 gap-2 w-full">
-               <a href="" class="relative rounded-3xl overflow-hidden bg-gradient-to-br from-cyan-900 via-cyan-700 to-cyan-500
-                        flex flex-col items-start hover:scale-105 hover:contrast-125 transition col-span-2 p-7 min-h-[180px]
-                        group">
+         <main class="px-12 pb-16 w-2/3 mx-auto">
+            <div class="grid grid-cols-6 grid-rows-2 gap-4">
+               
+               <!-- Component 1: Favorite foods -->
+              <div class="col-span-2 min-h-[180px] [perspective:1000px] group cursor-pointer hover:scale-105 transition-transform">
+                  <div class="relative w-full h-full transition-transform duration-500 [transform-style:preserve-3d] group-active:[transform:rotateY(180deg)] group-focus-within:[transform:rotateY(180deg)]" tabindex="0">
+                     <!-- Front face-->
+                     <div class="relative w-full h-full min-h-[180px] rounded-3xl overflow-hidden bg-gradient-to-br from-violet-900 via-cyan-800 to-cyan-600
+                      flex flex-col items-start group-hover:contrast-125 transition p-7 [backface-visibility:hidden]">
 
-               <span class="absolute bottom-1 left-2 font-bold text-2xl group-hover:-translate-y-1
-                transition-transform">Favorite foods</span>
+                        <span class="absolute bottom-1 left-2 font-bold text-2xl group-hover:-translate-y-1 transition-transform">Favorite foods</span>
 
-               <svg class="absolute -right-4 -bottom-4 -rotate-6 size-28 group-hover:-rotate-20
-               group-hover-scale-125 transition-transform" width="100" height="100">
-                  <use xlink:href="./assets/sprite.svg#bowl" />
-               </svg>
+                        <img src="./assets/img/food.svg" alt="Favorite foods" class="absolute -rotate-30 -right-5 -bottom-2 size-30 group-hover:rotate-0
+                         group-hover:right-1 group-hover:scale-110 transition-transform">
 
-               <span class="absolute top-2 left-4 text-xs border rounded-xl px-1 py-0.5">Eso tilin</span>
-               </a>
+                        <span class="absolute top-2 left-4 text-xs border rounded-xl px-1 py-0.5">Eso tilin</span>
+                     </div>
+                     <!-- Back  face-->
+                     <div class="absolute inset-0 rounded-3xl overflow-hidden bg-gradient-to-br from-cyan-700 via-cyan-950 to-black flex flex-col items-center justify-center p-7 [backface-visibility:hidden] [transform:rotateY(180deg)]">
+                        <p class="text-center text-white font-medium text-lg">Green chilaquiles, Pork roast, and Chicken breast!</p>
+                     </div>
+                  </div>
+               </div>
 
-               <a href="" class="relative rounded-3xl overflow-hidden bg-gradient-to-br from-green-950 via-green-800 to-lime-500
-               flex flex-col items-start hover:scale-105 hover:contrast-125 transition col-span-2 p-7 min-h-[180px]
-               group">     
+               <!-- Component 2: Favorite movies -->
+               <div class="col-span-2 min-h-[180px] [perspective:1000px] group cursor-pointer hover:scale-105 transition-transform">
+                  <div class="relative w-full h-full transition-transform duration-500 [transform-style:preserve-3d] group-active:[transform:rotateY(180deg)] group-focus-within:[transform:rotateY(180deg)]" tabindex="0">
+                     <!-- Front face-->
+                     <div class="relative w-full h-full min-h-[180px] rounded-3xl overflow-hidden bg-gradient-to-br from-violet-900 via-cyan-800 to-cyan-600 
+                     flex flex-col items-start group-hover:contrast-125 transition p-7 [backface-visibility:hidden]">
+                        <span class="absolute bottom-1 left-2 font-bold text-2xl group-hover:-translate-y-1 transition-transform">Favorite movies</span>
+                        <img src="./assets/img/cinema.svg" alt="Favorite movies" class="absolute opacity-60 -rotate-30 -right-3 bottom-1 size-28
+                         group-hover:rotate-0 group-hover:right-1 group-hover:opacity-80 group-hover:scale-110 transition-transform">
+                        <span class="absolute top-2 left-4 text-xs border rounded-xl px-1 py-0.5">JavaScript Runtime</span>
+                     </div>
+                     <!-- Back face -->
+                     <div class="absolute inset-0 rounded-3xl overflow-hidden bg-gradient-to-br from-cyan-700 via-cyan-950 to-black flex flex-col items-center justify-center p-7 [backface-visibility:hidden] [transform:rotateY(180deg)]">
+                        <p class="text-center text-white font-medium text-lg">Inglourious Basterds, Treasure Planet, The Blair Witch Project</p>
+                     </div>
+                  </div>
+               </div>
 
-               <span class="absolute bottom-1 left-2 font-bold text-2xl group-hover:-translate-y-1
-                transition-transform">Favorite movies</span>
+               <!-- Component 3: Tv shows -->
+               <div class="col-span-2 min-h-[180px] [perspective:1000px] group cursor-pointer hover:scale-105 transition-transform">
+                  <div class="relative w-full h-full transition-transform duration-500 [transform-style:preserve-3d] group-active:[transform:rotateY(180deg)] group-focus-within:[transform:rotateY(180deg)]" tabindex="0">
+                     <!-- Front face-->
+                     <div class="relative w-full h-full min-h-[180px] rounded-3xl overflow-hidden bg-gradient-to-br from-violet-900 via-cyan-800 to-cyan-600 
+                     flex flex-col items-start group-hover:contrast-125 transition p-7 [backface-visibility:hidden]">
+                        <span class="absolute bottom-1 left-2 font-bold text-2xl group-hover:-translate-y-1 transition-transform">Favorite TV shows</span>
 
-               <svg class="absolute -right-4 -bottom-4 -rotate-6 size-28 group-hover:-rotate-20
-               group-hover-scale-125 transition-transform" width="100" height="100">
-                  <use xlink:href="./assets/sprite.svg#node" />
-               </svg>
+                        <img src="./assets/img/tv.svg" alt="Favorite TV shows" class="absolute opacity-70 -rotate-30 -right-5 -bottom-1 size-30
+                         group-hover:rotate-0 group-hover:right-1 group-hover:opacity-90 group-hover:scale-110 transition-transform">
 
-               <span class="absolute top-2 left-4 text-xs border rounded-xl px-1 py-0.5">JavaScript Runtime</span>
-               </a>
+                        <span class="absolute top-2 left-4 text-xs border rounded-xl px-1 py-0.5">JavaScript Runtime</span>
+                     </div>
+                     <!-- Back face-->
+                     <div class="absolute inset-0 rounded-3xl overflow-hidden bg-gradient-to-br  from-cyan-700 via-cyan-950 to-black flex flex-col items-center justify-center p-7 [backface-visibility:hidden] [transform:rotateY(180deg)]">
+                        <p class="text-center text-white font-medium text-lg">Better Call Saul, The Amazing World of Gumball</p>
+                     </div>
+                  </div>
+               </div>
 
-               <a href="" class="relative rounded-3xl overflow-hidden bg-gradient-to-br from-green-950 via-green-800 to-lime-500
-               flex flex-col items-start hover:scale-105 hover:contrast-125 transition col-span-2 p-7 min-h-[180px]
-               group">     
+               <!-- Component 4: Hobbies -->
+               <div class="col-span-3 min-h-[180px] [perspective:1000px] group cursor-pointer hover:scale-105 transition-transform">
+                  <div class="relative w-full h-full transition-transform duration-500 [transform-style:preserve-3d] group-active:[transform:rotateY(180deg)] group-focus-within:[transform:rotateY(180deg)]" tabindex="0">
+                     <!-- Front face-->
+                     <div class="relative w-full h-full min-h-[180px] rounded-3xl overflow-hidden bg-gradient-to-br from-violet-900 via-cyan-800 to-cyan-600 
+                     flex flex-col items-start group-hover:contrast-125 transition p-7 [backface-visibility:hidden]">
 
-               <span class="absolute bottom-1 left-2 font-bold text-2xl group-hover:-translate-y-1
-                transition-transform">Favorite TV shows</span>
+                        <span class="absolute bottom-1 left-2 font-bold text-2xl group-hover:-translate-y-1 transition-transform">Hobbies</span>
 
-               <svg class="absolute -right-4 -bottom-4 -rotate-6 size-28 group-hover:-rotate-20
-               group-hover-scale-125 transition-transform" width="100" height="100">
-                  <use xlink:href="./assets/sprite.svg#node" />
-               </svg>
+                        <img src="./assets/img/heart.svg" alt="Hobbies" class="absolute opacity-70 -rotate-30 -right-8 -bottom-1 size-28
+                         group-hover:rotate-0 group-hover:right-1 group-hover:opacity-90 group-hover:scale-110 transition-transform">
 
-               <span class="absolute top-2 left-4 text-xs border rounded-xl px-1 py-0.5">JavaScript Runtime</span>
-               </a>
+                        <span class="absolute top-2 left-4 text-xs border rounded-xl px-1 py-0.5">JavaScript Runtime</span>
+                     </div>
+                     <!-- Back face-->
+                     <div class="absolute inset-0 rounded-3xl overflow-hidden bg-gradient-to-br  from-cyan-700 via-cyan-950 to-black flex flex-col 
+                     items-center justify-center p-7 [backface-visibility:hidden] [transform:rotateY(180deg)]">
+                        <p class="text-center text-white font-medium text-lg">Learning French, Gym, and Gaming</p>
+                     </div>
+                  </div>
+               </div>
 
-               <a href="" class="relative rounded-3xl overflow-hidden bg-gradient-to-br from-green-950 via-green-800 to-lime-500
-               flex flex-col items-start hover:scale-105 hover:contrast-125 transition col-span-3 p-7 min-h-[180px]
-               group">     
+               <!-- Component 5: Social media -->
+               <div class="col-span-3 min-h-[180px] [perspective:1000px] group cursor-pointer hover:scale-105 transition-transform">
+                  <div class="relative w-full h-full transition-transform duration-500 [transform-style:preserve-3d] group-active:[transform:rotateY(180deg)]
+                   group-focus-within:[transform:rotateY(180deg)]" tabindex="0">
+                     <!-- Front face-->
+                     <div class="relative w-full h-full min-h-[180px] rounded-3xl overflow-hidden bg-gradient-to-br from-violet-900 via-cyan-800 to-cyan-600 
+                     flex flex-col items-start group-hover:contrast-125 transition p-7 [backface-visibility:hidden]">
 
-               <span class="absolute bottom-1 left-2 font-bold text-2xl group-hover:-translate-y-1
-                transition-transform">Hobbies</span>
+                        <span class="absolute bottom-1 left-2 font-bold text-2xl group-hover:-translate-y-1 transition-transform">Social media</span>
 
-               <svg class="absolute -right-4 -bottom-4 -rotate-6 size-28 group-hover:-rotate-20
-               group-hover-scale-125 transition-transform" width="100" height="100">
-                  <use xlink:href="./assets/sprite.svg#node" />
-               </svg>
+                        <img src="./assets/img/social.svg" alt="Social media" class="absolute opacity-70 -rotate-30 -right-5 -bottom-1 size-30 
+                        group-hover:rotate-0 group-hover:right-1 group-hover:opacity-90 group-hover:scale-110 transition-transform">
+                        <span class="absolute top-2 left-4 text-xs border rounded-xl px-1 py-0.5">JavaScript Runtime</span>
+                     </div>
+                     <!-- Back face -->
+                     <div class="absolute inset-0 rounded-3xl overflow-hidden bg-gradient-to-br from-cyan-700 via-cyan-950 to-black flex flex-col 
+                     items-center justify-center p-7 [backface-visibility:hidden] [transform:rotateY(180deg)]">
 
-               <span class="absolute top-2 left-4 text-xs border rounded-xl px-1 py-0.5">JavaScript Runtime</span>
-               </a>
+                        <section class="flex gap-2 justify-center">
+                           
+                           <!-- Instagram -->
+                           <a class="bg-pink-500 social-button
+                           bg-gradient-to-tr from-yellow-300 via-pink-600 to-purple-600"
+                           href="https://www.instagram.com/alexander.moon04?igsh=MTh6M2p4MjM5azhzZA==" target="_blank" aria-label="Instagram" title="Go to my Instagram">
+                           <svg width="32" height="32">
+                              <use xlink:href="assets/sprite.svg#instagram"></use>
+                           </svg>
+                           </a>
+                           <!-- Github -->
+                           <a class="bg-black social-button"
+                           href="https://github.com/AlexanderMoon04" target="_blank" aria-label="Github" title="Go to my Github">
+                           <svg width="32" height="32">
+                              <use xlink:href="assets/sprite.svg#github"></use>
+                           </svg>
+                           </a>
+                           <!-- Youtube -->
+                           <a class="bg-purple-100 social-button"
+                           href="https://youtu.be/RNssmVzgsjE?si=dH24-TqEbdqNfMZb" target="_blank" aria-label="Youtube" title="Go to the video mais increible do mundo">
+                              <svg width="32" height="32">
+                              <use xlink:href="assets/sprite.svg#youtube"></use>
+                              </svg>
+                           </a>
+                        </section>
+                     </div>
+               </div>
+         </div>
 
-               <a href="" class="relative rounded-3xl overflow-hidden bg-gradient-to-br from-green-950 via-green-800 to-lime-500
-               flex flex-col items-start hover:scale-105 hover:contrast-125 transition col-span-3 p-7 min-h-[180px]
-               group">     
-
-               <span class="absolute bottom-1 left-2 font-bold text-2xl group-hover:-translate-y-1
-                transition-transform">Error: 404</span>
-
-               <svg class="absolute -right-4 -bottom-4 -rotate-6 size-28 group-hover:-rotate-20
-               group-hover-scale-125 transition-transform" width="100" height="100">
-                  <use xlink:href="./assets/sprite.svg#node" />
-               </svg>
-
-               <span class="absolute top-2 left-4 text-xs border rounded-xl px-1 py-0.5">JavaScript Runtime</span>
-               </a>
-
-            </div>
-         </main>
+         </div>
+      </main>
    </body>
 </html>

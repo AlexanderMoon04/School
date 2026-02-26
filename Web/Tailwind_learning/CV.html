@@ -1,81 +1,111 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<!doctype html>
 <html>
    <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <title></title>
-      <meta name="description" content="">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="styles.css">
-      <link rel="stylesheet" href="style.min.css">
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Curriculum Vitae</title>
+      <link href="./assets/output.css" rel="stylesheet" />
+      <link rel="icon" href="assets/img/berger-allemand.png" />
+
    </head>
-   <body>
-      <nav class="navbar">
-         <ul>
-            <li><a href="index.html">🏠</a></li>
-            <li><a href="schedule.html">BIS schedule</a></li>
-            <li><a href="CV.html">CV</a></li>
+   <body class="min-h-dvh bg-linear-to-b from-black via-sky-950 to-gray-800 text-sky-100">
+      <nav class="flex justify-center pt-6 px-4 mb-8">
+         <ul class="flex w-full max-w-6xl items-center text-m font-medium text-sky-100 bg-black/40 border border-sky-500/40 rounded-full px-6 py-2 backdrop-blur-sm">
+            <li class="flex-1 text-center">
+               <a href="index.html" class="group inline-block transition-colors border-b-2 border-transparent hover:border-sky-300/50 pb-1">
+                  <span class="mx-auto block h-7 w-7 bg-sky-100 transition-colors group-hover:bg-sky-300" style="mask: url('assets/img/home3.svg') center/contain no-repeat; -webkit-mask: url('assets/img/home3.svg') center/contain no-repeat;"></span>
+               </a>
+            </li>
+            <li class="flex-1 text-center">
+               <a href="schedule.html" class="inline-block hover:text-sky-300 transition-colors border-b-2 border-transparent hover:border-sky-300/50 pb-1">Schedule</a>
+            </li>
+            <li class="flex-1 text-center">
+               <a href="CV.html" class="inline-block text-sky-400 transition-colors border-b-2 border-sky-400 pb-1">CV</a>
+            </li>
          </ul>
       </nav>
 
-      <div class="container text-center"> 
-         <div class="row">
-            <div class="col-4 info">
-               <h1>Jaime Alejandro Luna Estrada</h1>
-               <img class="Gallo img-fluid cv-section" src="img/images.jpeg" alt="Un gallo con tenis">
-               <div class="row Contacto cv-section">
-                  <h3>Contacto</h3>
-                  <div class="col-2">
-                     <img src="img/appel.png" alt="Telephone icon" class="Icon_CV"/>
+      <main class="px-4 pb-16">
+         <section class="w-full max-w-6xl mx-auto rounded-3xl border border-sky-500/30 bg-black/35 backdrop-blur-sm shadow-2xl overflow-hidden">
+            <div class="grid lg:grid-cols-3">
+               <aside class="lg:col-span-1 p-6 md:p-8 border-b lg:border-b-0 lg:border-r border-sky-500/25 bg-linear-to-b from-violet-950/40 via-cyan-950/30 to-black/20">
+                  <div class="flex flex-col items-center text-center">
+                     <img src="assets/img/ProgrammerCat.jpg" alt="Jaime Alejandro Luna Estrada" class="h-36 w-36 rounded-full object-cover border-2 border-sky-400/60 shadow-lg mb-4" />
+                     <h1 class="text-2xl font-bold text-sky-300">Jaime Alejandro Luna Estrada</h1>
+                     <p class="text-sky-100/80 mt-1">Software Development Student</p>
                   </div>
-                  <div class="col-10">
-                     <h5>+52 1 55 1234 5678</h5>
-                  </div>
-                  <div class="col-2">
-                     <img src="img/courrier.png" alt="Mail icon" class="Icon_CV"/>
-                  </div>
-                  <div class="col-10">
-                     <h5>a65381500@utch.edu.mx</h5>
-                  </div>
-                  <div class="col-2">
-                     <img src="img/instagram.png" alt="Instragram icon" class="Icon_CV"/>
-                  </div>
-                  <div class="col-10">
-                     <h5>alexander.moon04</h5>
-                  </div>
-               </div>
 
-               <div class="row cv-section">
-                  <h5>Habilidades</h5>
-                  <ul class="">
-                     <li>Trabajo en equipo</li>
-                     <li>Comunicación efectiva</li>
-                     <li>Resolución de problemas</li>
-                     <li>Adaptabilidad</li>
-                     <li>Gestión del tiempo</li>
-                  </ul>
-               </div>
+                  <div class="mt-8 space-y-6">
+                     <div>
+                        <h2 class="text-lg font-semibold text-sky-300 mb-2">Contact</h2>
+                        <ul class="space-y-2 text-sky-100/90 text-sm">
+                           <li>Phone: +52-614-2-29-81-54</li>
+                           <li>Email: a65381500@utch.edu.mx</li>
+                           <li>GitHub:<a href="https://github.com/AlexanderMoon04" class="text-sky-300 hover:text-sky-400 transition-colors"> AlexanderMoon04</a></li>
+                        </ul>
+                     </div>
 
-               <div class="row cv-section">
-                  <h5>Educacion</h5>
-                  <ul class="">
-                     <li>Primaria: Repabe Raramuri</li>
-                     <li>Secundaria: Federal #11</li>
-                     <li>Bachillerato: CecyTech 06</li>
-                     <li>Universidad: Universidad Tecnológica de Chihuahua BIS</li>
-                  </ul>
-               </div>
+                     <div>
+                        <h2 class="text-lg font-semibold text-sky-300 mb-2">Skills</h2>
+                        <ul class="list-disc list-inside space-y-1 text-sky-100/90 text-sm">
+                           <li>Teamwork</li>
+                           <li>Effective communication</li>
+                           <li>Problem-solving</li>
+                           <li>Adaptability</li>
+                           <li>Programming</li>
+                        </ul>
+                     </div>
 
+                     <div>
+                        <h2 class="text-lg font-semibold text-sky-300 mb-2">Languages</h2>
+                        <ul class="space-y-1 text-sky-100/90 text-sm">
+                           <li>Spanish - Native</li>
+                           <li>English - Intermediate</li>
+                           <li>French - Learning</li>
+                        </ul>
+                     </div>
+                  </div>
+               </aside>
 
-         </div>
-         <div class="col-8">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus deleniti, quis doloremque nulla nam quam? Architecto alias ea perferendis aliquid, laboriosam impedit at nemo labore facere. Quidem, quisquam asperiores! Ipsam?
-         </div>
-      </div>
-      <script src="" async defer></script>
+               <section class="lg:col-span-2 p-6 md:p-8 space-y-8">
+                  <div>
+                     <h2 class="text-2xl font-bold text-sky-300 mb-3">About me</h2>
+                     <p class="text-sky-100/90 leading-relaxed">
+                        Motivated Software Development student with a strong interest in web technologies like React, Typescript and Tailwind CSS.
+                         I enjoy finding solutions to problems through logical thinking, even if sometimes the process is frustrating, the pleasure of finally solving them is worth it.
+                     </p>
+                  </div>
+
+                  <div>
+                     <h2 class="text-2xl font-bold text-sky-300 mb-3">Education</h2>
+                     <div class="space-y-4">
+                        <article class="rounded-2xl border border-sky-500/25 bg-slate-950/45 p-4">
+                           <h3 class="font-semibold text-sky-200">Universidad Tecnológica de Chihuahua BIS</h3>
+                           <p class="text-sm text-sky-100/80">Software Development Engineering (In process)</p>
+                        </article>
+                        <article class="rounded-2xl border border-sky-500/25 bg-slate-950/45 p-4">
+                           <h3 class="font-semibold text-sky-200">CecyTech 06</h3>
+                           <p class="text-sm text-sky-100/80">High School</p>
+                        </article>
+                        <article class="rounded-2xl border border-sky-500/25 bg-slate-950/45 p-4">
+                           <h3 class="font-semibold text-sky-200">Federal #11</h3>
+                           <p class="text-sm text-sky-100/80">Middle School</p>
+                        </article>
+                     </div>
+                  </div>
+
+                  <div>
+                     <h2 class="text-2xl font-bold text-sky-300 mb-3">Projects & Interests</h2>
+                     <ul class="list-disc list-inside space-y-2 text-sky-100/90 leading-relaxed">
+                        <li>CRA, desktop application to help manage water consumption in houses and business.</li>
+                        <li>Console applications in C#.</li>
+                        <li>High interest in web development, back-end and UI design.</li>
+                        <li>Strong personal interest in fitness, technology trends, and French language learning.</li>
+                     </ul>
+                  </div>
+               </section>
+            </div>
+         </section>
+      </main>
    </body>
 </html>
