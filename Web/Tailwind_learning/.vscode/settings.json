@@ -2,5 +2,6 @@
 {
    "files.associations": {
       "*.css": "tailwindcss"
-   }
+   },
+   "dotnet.defaultSolution": "LibrarySystem.sln"
 }
