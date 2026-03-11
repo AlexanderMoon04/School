@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="CRUDTreeExample/CRUDTreeExample.csproj" />
+  <Project Path="DictionaryExample/DictionaryExample.csproj" />
+  <Project Path="DictionaryHardExample/DictionaryHardExample.csproj" />
+  <Project Path="SetsExample/SetsExample.csproj" />
+</Solution>
