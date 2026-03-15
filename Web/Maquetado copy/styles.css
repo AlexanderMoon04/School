@@ -1,0 +1,223 @@
+/* img{
+   border-radius: 500px;
+   width: 300px;
+   height: 300px;
+} */
+.homepage
+{
+   display:grid;
+   justify-content:center;
+   background-color: #717F99;
+}
+
+.navbar ul 
+{
+   list-style-type: none;
+   background-color: #9a8d71;
+   padding: 0px;
+   margin: 0px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.navbar li
+{
+   flex: 1;
+}
+
+.navbar a
+{
+   color : black;
+   text-decoration: none;
+   padding: 20px;
+   display: block;
+   text-align: center;
+}
+
+.navbar a:hover
+{
+   background-color: #555; 
+   color: white;
+   border-radius: 10px;
+}
+.menubtn
+{
+   font-size: 25px;
+   margin: 10px;
+   border-radius: 10px;
+   text-align: center;
+   width: 180px;
+   height: 90px;
+   font-family:'Times New Roman', Times, serif;
+   background-color:#9a8d71;
+   padding: 12px 24px;
+
+}
+.menubtn:hover
+{
+   cursor:pointer;
+}
+
+.subject ethic{
+   color: #555;
+}
+td.apis
+{
+   border: solid 1px;
+   color: #d91515;
+   background-color: #031633;
+   background:#a2b7d6;
+}
+
+.Gallo
+{
+   border: solid 4px;
+   border-color: aliceblue;
+   border-radius: 200px;
+}
+
+.Icon_CV
+{
+   background-color:rgb(168, 160, 229);
+   width: 40px;
+   height: 40px;
+   border-radius: 15px;
+   padding: 5px;
+}
+
+.Contacto
+{
+   display: flex;
+   width: 100%;
+}
+
+.Habilities
+{
+   display: flex;
+   width: 100%;
+}
+
+.info
+{
+   background-color: #a6ccde;
+}
+
+.info h1,
+.info h5,
+.col-8
+{
+   overflow-wrap: anywhere;
+   word-break: break-word;
+}
+
+.info ul
+{
+   list-style-position: inside;
+   margin-left: 30px;
+   padding-left: 0;
+   text-align: left;
+
+}
+
+.cv-section + .cv-section
+{
+   border-top: 1px solid;
+   margin-top: 16px;
+   padding-top: 16px;
+   border-color: whitesmoke;
+}
+
+/* ── General base styles ── */
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: #f0f2f5;
+}
+
+/* ── Page content wrapper ── */
+.content-wrapper {
+   max-width: 960px;
+   margin: 30px auto;
+   padding: 24px;
+   background-color: white;
+   border-radius: 8px;
+   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* ── Two-column layout for index page ── */
+.page-layout {
+   display: flex;
+   gap: 24px;
+}
+
+.sidebar {
+   width: 180px;
+   flex-shrink: 0;
+   background-color: #f5f5f5;
+   border-radius: 8px;
+   padding: 12px;
+}
+
+.sidebar div {
+   padding: 8px 12px;
+   margin-bottom: 4px;
+   border-radius: 4px;
+   cursor: pointer;
+}
+
+.sidebar div:hover {
+   background-color: #9a8d71;
+   color: white;
+}
+
+.main-content {
+   flex: 1;
+}
+
+.home-centered .main-content {
+   text-align: center;
+}
+
+.home-centered .main-content img {
+   display: block;
+   margin: 12px auto 20px;
+   max-width: 220px;
+   width: 100%;
+   height: auto;
+   border-radius: 50%;
+}
+
+.home-centered .main-content ul {
+   list-style-position: inside;
+   padding-left: 0;
+}
+
+/* ── Schedule table ── */
+table {
+   border-collapse: collapse;
+   width: 100%;
+}
+
+th, td {
+   border: 1px solid #ddd;
+   padding: 10px 14px;
+   text-align: center;
+}
+
+thead th {
+   background-color: #9a8d71;
+   color: white;
+   font-size: 1.1em;
+}
+
+tbody tr:first-child td {
+   background-color: #717F99;
+   color: white;
+   font-weight: bold;
+}
+
+tbody tr:hover td {
+   background-color: #e8e0d0;
+}
