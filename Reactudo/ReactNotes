@@ -1,0 +1,26 @@
+Create a project:
+npm create vite@latest
+
+start a project
+npm run dev
+
+=======================================================
+
+-Hooks may only be called from the inside of a function body that defines a React component.
+
+-A state update in React happens asynchronously, so the new state value is not immediately available after calling the state update function.
+
+- It is forbidden to mutate the state directly
+
+- Event handlers must always be a function or a reference to a function. 
+
+-Never define components inside another component, it makes impossible for React to optimize the component
+
+-A component is usually a function with a specific role, receives props and returns UI, also can use Hooks.
+
+-The correct way of updating state stored in complex data structures like objects and arrays is to make a copy of the state.
+
+-React needs a stable key for each list item to track updated efficiently.
+
+
+
